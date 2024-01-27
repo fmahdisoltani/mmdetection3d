@@ -130,7 +130,7 @@ After exporting each scan, the raw point cloud could be downsampled, e.g. to 500
 ### Create dataset
 
 ```shell
-python tools/create_data.py scannet --root-path ./data/scannet \
+python tools/create_data.py --dataset scannet --root-path ./data/scannet \
 --out-dir ./data/scannet --extra-tag scannet
 ```
 
